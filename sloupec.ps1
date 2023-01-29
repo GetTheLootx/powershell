@@ -53,4 +53,4 @@ foreach ($GroupedNumber in $Grouped) {
 
 }
 
-$GroupedCollection | Export-Csv "./output.csv" -NoClobber -NoTypeInformation
+$GroupedCollection | Export-Csv -Path ".\output.csv" -NoClobber -NoTypeInformation
